@@ -45,7 +45,7 @@ void setup() {
   bool tare = true;
   unsigned long stabilizingTime = 2000;
   LoadCell.start(stabilizingTime, tare);
-  LoadCell.setCalFactor(213.11);  // Replace with your calibration factor
+  LoadCell.setCalFactor(213.11);  // Replace with your calibration factor,Adjust the setCalFactor() with your real calibration value from testing.
 }
 
 void loop() {
